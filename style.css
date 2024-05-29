@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn btn-primary btn-sm{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #151658;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn btn-primary btn-sm :hover{
+    background-color: #ffff;
+    transform: 0.5s;
+}
+#resumeOutput {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#resumeOutput h3 {
+    margin-top: 0;
+}
+
+#resumeOutput p {
+    margin-bottom: 10px;
+}
